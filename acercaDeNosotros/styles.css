@@ -2,6 +2,14 @@ html,body{
 background-color: #FCDCDB;
 }
  
+.custom-navbar {
+  background-color: #F5EBD2;
+}
+
+#logo {
+  width: 10rem;
+  height: auto;
+}
  
 h2{
   font-family: "Playfair Display",serif ;
