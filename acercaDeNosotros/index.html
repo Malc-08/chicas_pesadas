@@ -13,13 +13,15 @@
     <style>
         /* Estilo para cambiar el color del texto a negro */
         .carousel-item h1 {
-            color: black; /* Cambiar el color del texto a negro */
+            color: black;
+            /* Cambiar el color del texto a negro */
         }
 
         /* Estilo para cambiar el color de las flechas del carrusel a negro */
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
-            filter: invert(1); /* Invertir el color de las flechas para que se vean negras */
+            filter: invert(1);
+            /* Invertir el color de las flechas para que se vean negras */
         }
     </style>
 
@@ -40,46 +42,45 @@
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-
-
 </head>
 
 <body>
 
-   <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img id="logo" src="./public/img/logo-olga-franco-lenceria.png"
-                alt="logo-olga-franco-lenceria" class="mr-3">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex justify-content-around w-100">
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#Inicio">Inicio</a>
-                </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#Conóceme">Conóceme</a>
-                </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#Productos">Productos</a>
-                </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#Login">Login</a>
-                </li>
-                <li class="nav-item text-center">
-                    <a class="nav-link" href="#Contacto">Contacto</a>
-                </li>
-            </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./public/img/logo-olga-franco-lenceria.png" alt="logo-olga-franco-lenceria"
+                    class="mr-3">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-around w-100">
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#Inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#Conóceme">Conóceme</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#Productos">Productos</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#Login">Login</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+
     <!-- Descripción del proyecto -->
-    <div id="sobreNosotros" class="container mt-5" >
+    <div id="sobreNosotros" class="container mt-5">
         <div class="row">
             <div class="col-md-4">
                 <br>
@@ -92,7 +93,6 @@
                 <br>
                 <br>
                 <br>
-
                 <h2 class="playfair-display-unique-class text-center">Sobre nosotros</h2>
                 <p> Olga Franco es una marca de lencería inclusiva que celebra la diversidad en todas sus formas.
                     Queremos que cada persona que se identifique con el género femenino, independientemente de su tipo
@@ -105,10 +105,9 @@
 
     <!-- Tarjetas Mision, Vision y Valores-->
 
-
     <div class="card-group   flex-colum justify-content-center">
         <div class="card1">
-            <h2 class="card-title text-center">Mision</h2>
+            <h2 class="card-title text-center">Misión</h2>
             <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
             <div class="card-body"
                 style="background-image: url('./public/img/IMG_3597\ 2.jpg'); background-size: cover; background-position: center;">
@@ -119,7 +118,7 @@
 
         </div>
         <div class="card1">
-            <h2 class="card-title text-center">Vision</h2>
+            <h2 class="card-title text-center">Visión</h2>
             <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
             <div class="card-body"
                 style="background-image: url('./public/img/IMG_3983 2.jpg'); background-size: cover; background-position: center;">
@@ -144,108 +143,142 @@
         <!--  </section>   -->
     </div>
 
-
-
-
     <!-- Carrusel desarrolladoras -->
-    <section class="container mt-4 text-center"> 
-
-        
+    <section class="container text-center">
+        <br>
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-7 col-md-6 col-lg-8"> 
-               
+            <div class="col-12 col-sm-7 col-md-6 col-lg-8">
                 <div id="carouselExample" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
-                                <div class="col-4"> 
-                                    <img id="img1" src="./public/img/diana.jpeg" class="d-block w-100" alt="..."> 
-                                    <h1>Diana López</h1>
-                                    <h1>Soy desarrolladora especializada en JavaScript y Java, apasionada por crear soluciones eficientes. Con experiencia en el desarrollo de aplicaciones web y backend, disfruto escribir código, siempre buscando innovar y mejorar la experiencia del usuario.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/diana.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Diana-López">
+                                    <p>Diana López</p>
+                                    <h6>Desarrolladora Java con experiencia en el desarrollo tanto front-end como
+                                        back-end con Scrum. Me especializo en Java,Java Script,Sql, Css y Html creando
+                                        soluciones robustas y escalables. Me apasiona trabajar en equipos que manejan
+                                        metodologías ágiles.</h6>
                                 </div>
-                                <div class="col-4">
-                                    <img id="img2" src="./public/img/estefania.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Estefania Ortiz</h1>
-                                    <h1>Desarrolladora Java con experiencia en el desarrollo tanto front-end como back-end con Scrum. Me especializo en Java, JavaScript, SQL, CSS y HTML creando soluciones robustas y escalables. Me apasiona trabajar en equipos que manejan metodologías ágiles, donde puedo contribuir con mi creatividad y conocimientos técnicos para alcanzar objetivos innovadores, resolver desafíos complejos en el desarrollo de software y todo lo relacionado a IA.</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img id="img3" src="./public/img/lucero.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Lucero Hernández</h1>
-                                    <h1>Desarrolladora Java-Full Stack Dominio de HTML, CSS y JavaScript para el desarrollo frontend, con habilidades en frameworks de backend. Conocimientos de diseño y experiencia de usuario para crear interfaces atractivas y funcionales. Colaboró en creación del sitio web E-commerce.</h1>
-                                </div>
-                                <div class="col-4">
-                                    <img id="img4" src="./public/img/rubi.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Rubí  Medina</h1>
-                                    <h1>Soy desarrolladora Java Full Stack con experiencia como Product Owner. Me encanta el desarrollo y la implementación de metodología ágil a la hora de ejecutar los proyectos y disfruto el trabajo en equipo, viendo el desarrollo de proyectos desde los bocetos, código hasta crear la interfaz de usuario.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/amay.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Amayrani-Sosa">
+                                    <p>Amayrani Sosa</p>
+                                    <h6>Desarrolladora front-end con amplia experiencia en la creación de interfaces de
+                                        usuario intuitivas y atractivas. Apasionada por el desarrollo web, especializada
+                                        en transformar diseños en experiencias interactivas y responsivas.</h6>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
-                                <div class="col-4">
-                                    <img id="img5" src="./public/img/mari.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Maricela Bautista</h1>
-                                    <h1>Desarrolladora Java Full-Stack, experiencia en HTML, CSS, JavaScript con habilidades en las etapas del ciclo de vida del desarrollo de software, desde la concepción hasta el despliegue y mantenimiento de aplicaciones.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/lucero.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Lucero-Hernández">
+                                    <p>Lucero Hernández</p>
+                                    <h6>Desarrolladora Java-Full Stack Dominio de HTML, CSS y JavaScript para el
+                                        desarrollo frontend, con habilidades en frameworks de backend. Conocimientos de
+                                        diseño y experiencia de usuario para crear interfaces atractivas y funcionales.
+                                        Colaboró en creación del sitio web E-commerce.</h6>
                                 </div>
-                                <div class="col-4">
-                                    <img id="img6" src="./public/img/josse.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Josefina Pineda</h1>
-                                    <h1>Soy desarrolladora Java Full Stack con experiencia en crear aplicaciones web y móviles. Me encanta el desarrollo de software y disfruto trabajando en todas las partes de una aplicación, desde la interfaz de usuario hasta la base de datos.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/rubi.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Rubí-Medina">
+                                    <p>Rubí Medina</p>
+                                    <h6>Soy desarrolladora Java Full Stack con experiencia como Product Owner. Me
+                                        encanta el desarrollo y la implementación de metodología ágil a la hora de
+                                        ejecutar los proyectos y disfruto el trabajo en equipo, viendo el desarrollo de
+                                        proyectos desde los bocetos, código hasta crear la interfaz de usuario.</h6>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
-                                <div class="col-4">
-                                    <img id="img7" src="./public/img/mariana.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Mariana López</h1>
-                                    <h1>Front end Developer. Creativa y apasionada desarrolladora, con experiencia en el área de producción audiovisual, responsable y capaz de trabajar en equipo. Mi habilidad para combinar lo técnico con lo creativo me permite contribuir en equipos ágiles, donde busco siempre innovar y resolver problemas de manera eficiente y efectiva en el desarrollo de software.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/mari.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Maricela-Bautista">
+                                    <p>Maricela Bautista</p>
+                                    <h6>Desarrolladora Java Full-Stack, experiencia en HTML, CSS, JavaScript con
+                                        habilidades en las etapas del ciclo de vida del desarrollo de software, desde la
+                                        concepción hasta el despliegue y mantenimiento de aplicaciones.</h6>
                                 </div>
-                                <div class="col-4">
-                                    <img id="img8" src="./public/img/amay.jpeg" class="d-block w-100" alt="...">
-                                    <h1>Amayrani Sosa</h1>
-                                    <h1>Desarrolladora front-end con amplia experiencia en la creación de interfaces de usuario intuitivas y atractivas. Apasionada por el desarrollo web, especializada en transformar diseños en experiencias interactivas y responsivas.</h1>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/josse.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Josefina-Pineda">
+                                    <p>Josefina Pineda</p>
+                                    <h6>Desarrolladora Java Full Stack con experiencia en aplicaciones web y móviles,
+                                        especializada en crear soluciones desde el diseño hasta la implementación
+                                        utilizando Java, JavaScript, HTML, CSS y metodologías ágiles como Scrum.</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/mariana.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Mariana-López">
+                                    <p>Mariana López</p>
+                                    <h6>Front end Developer. Creativa y apasionada desarrolladora, con experiencia en el
+                                        área de producción audiovisual, responsable y capaz de trabajar en equipo, con la
+                                        habilidad para combinar lo técnico con lo creativo.</h6>
+                                </div>
+                                <div class="col-6">
+                                    <img class="rounded-image" src="./public/img/estefania.jpeg" class="d-block mx-auto"
+                                        alt="Foto-de-Estefania-Ortiz">
+                                    <p>Estefania Ortiz</p>
+                                    <h6>Soy desarrolladora especializada en JavaScript y Java, apasionada por crear
+                                        soluciones eficientes. Con experiencia en el desarrollo de aplicaciones web y
+                                        backend, disfruto escribir código, siempre buscando innovar y mejorar la
+                                        experiencia del usuario.</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Controles del Carrusel -->
-                    <button class="carousel-control-prev" type="button" data-target="#carouselExample" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExample"
+                        data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
+                        <span class="visually-hidden"></span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-target="#carouselExample"
+                        data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
+                        <span class="visually-hidden"></span>
                     </button>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Footer -->
     <footer class="custom-footer">
-        <div class="container">
-            <div class="copyright">
-                <p>&copy; 2024 Olga Franco Lencería - Todos los derechos reservados</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9 d-flex align-items-center">
+                    <div class="copyright">
+                        <h5 class="text-left">&copy; 2024 Olga Franco Lencería - Todos los derechos reservados</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-icons d-flex align-items-right">
+                        <!-- Añade la clase text-md-end para alinear a la derecha en pantallas medianas y más grandes -->
+                        <a href="https://wa.me/message/R75D7YSZZ7HFC1"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/olga_franco_lenceria/"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:olga_francogutierrez@hotmail.com"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="social-icons">
-                <a href="https://wa.me/message/R75D7YSZZ7HFC1"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/olga_franco_lenceria/"><i class="fab fa-instagram"></i></a>
-                <a href="olga_francogutierrez@hotmail.com"><i class="far fa-envelope"></i></a>
-            </div>
-         
-            <div class="policy">
-                <!-- Aquí añadimos el enlace hacia la política de privacidad y términos -->
-                <p><a href="politica.html">Política de privacidad y términos</a></p>
+            <div class="row">
+                <div class="col">
+                    <div class="policy">
+                        <h5><a href="politica.html">Política de privacidad y términos</a></h5>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-    
 
     <!-- Bootstrap y jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

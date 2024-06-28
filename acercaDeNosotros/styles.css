@@ -1,59 +1,104 @@
-html,body{
-background-color: #FCDCDB;
+html,
+body {
+  background-color: #FCDCDB;
 }
- 
+
 .custom-navbar {
   background-color: #F5EBD2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#logo {
-  width: 10rem;
-  height: auto;
-}
- 
-h2{
-  font-family: "Playfair Display",serif ;
+.navbar-brand img {
+  max-height: 50px;
 }
 
-p{
+.navbar-nav .nav-link {
+  color: #5c5a5a !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  padding: 10px 15px !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0e010d !important;
+  text-decoration: none !important;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   font-size: 18px;
-  
+
 }
 
-.card-body{
+.card-body {
   width: 370px;
   height: 300px;
   border-radius: 10px;
 }
 
-.card-text{
+.card-text {
   text-align: center;
-  
+
   line-height: 30px;
-  
+
 }
 
-.carousel-item .row {
-  display: flex;
-  justify-content: space-between;
+.carousel-item {
+  max-height: 800px;
 }
 
-
-
-.carousel-item h1 {
-  color:black;
-  margin-top: 15px;
-  font-size: 1rem;
-  text-align: left;
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
 }
 
-.carousel-inner {
-  padding-bottom: 05px;
+.carousel-control-prev,
+.carousel-control-next {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  top: 38%;
+  transform: translateY(-38%);
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+}
 
+body {
+  padding-bottom: 100px;
+}
+
+.rounded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.rounded-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 10px;
+}
 
 
 /* .flip-card{
@@ -95,24 +140,10 @@ label:hover .flip-card{
   padding: 0 20px;
 } */
 
-/* Estilos del footer personalizado */
-.custom-footer {
-  background-color: purple; /* Color morado para el footer */
-  color: white;
-  height: 3cm; /* Altura del footer */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 /* .container > div {
   display: inline-block;
   vertical-align: middle;
 } */
-
-.social-icons {
-  float: right;
-}
 
 /*.social-icons a {
   color: white;
@@ -120,22 +151,34 @@ label:hover .flip-card{
   margin-left: 10px;
 }**/
 
+.social-icons {
+  float: right;
+}
+
 .social-icons a {
   color: white;
   text-decoration: none;
-  margin-left: 10px;
-  font-size: 40px; /* Aumenta el tamaño de los iconos */
+  margin-left: 25px;
+  font-size: 25px;
 }
 
+copyright {
+  text-align: center;
+}
+
+/* Estilos del footer personalizado */
+.custom-footer {
+  background-color: rgb(53, 2, 53);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .policy {
-  background-color: rgba(180, 174, 199, 0.8); /* Color más claro para la sección inferior */
+  background-color: rgb(80, 2, 80);
   color: white;
-  text-align: left; /* Alinea el texto a la izquierda */
-  padding: 5px 20px; /* Ajusta el espacio interno */
-  font-size: 11px;
-  width: 100%; /* Asegura que ocupe todo el ancho disponible */
-  position: fixed; /* Fija la posición para cubrir toda la pantalla */
-  bottom: 0; /* Lo coloca en la parte inferior de la pantalla */
-  left: 0; /* Alinea a la izquierda */
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
