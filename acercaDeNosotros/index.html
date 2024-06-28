@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de Nosotros - Olga Franco Lenceria</title>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
+
+    <!--Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
     <!-- Estilos CSS personalizados -->
     <link rel="stylesheet" href="styles.css">
 
@@ -15,55 +27,110 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
+
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Olga Franco Lenceria</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Conóceme">Conóceme</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#Productos">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Login">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contacto">Contacto</a>
-                    </li>
-                </ul>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="./public/img/logo-olga-franco-lenceria.png"
+                alt="logo-olga-franco-lenceria" class="mr-3">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-around w-100">
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#Inicio">Inicio</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#Conóceme">Conóceme</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#Productos">Productos</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#Login">Login</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Descripción del proyecto -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./public/img/imagen-sobre-nosotros.jpg" class="img-fluid rounded"
+                    alt="imagen de tres chicas mostrando lenceria de Olga Franco">
+            </div>
+            <div class="col-md-8">
+                <h2 class="playfair-display-unique-class text-center">Sobre nosotros</h2>
+                <p> Olga Franco es una marca de lencería inclusiva que celebra la diversidad en todas sus formas.
+                    Queremos que cada persona que se identifique con el género femenino, independientemente de su tipo
+                    de cuerpo, pueda encontrar lencería que no solo le quede bien, sino que también le haga sentir
+                    segura y empoderada.</p>
             </div>
         </div>
-    </nav>
+    </div>
+
+
+    <!-- Tarjetas Mision, Vision y Valores-->
+
+
+    <div class="card-group   flex-colum justify-content-center">
+        <div class="card1">
+            <h2 class="card-title text-center">Mision</h2>
+            <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body"
+                style="background-image: url('./public/img/IMG_3597\ 2.jpg'); background-size: cover; background-position: center;">
+                <p class="card-text">Inspirar como líder a nivel mundial en lencería femenina, destacando por
+                    nuestra inclusividad, innovación en diseño y calidad, así como por nuestro compromiso con la
+                    diversidad corpora.</p>
+            </div>
+
+        </div>
+        <div class="card1">
+            <h2 class="card-title text-center">Vision</h2>
+            <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body"
+                style="background-image: url('./public/img/IMG_3983 2.jpg'); background-size: cover; background-position: center;">
+                <p class="card-text">Inspirar como líder a nivel mundial en lencería femenina, destacando por
+                    nuestra inclusividad, innovación en diseño y calidad, así como por nuestro compromiso con la
+                    diversidad corpora.</p>
+            </div>
+
+        </div>
+        <div class="card1">
+            <h2 class="card-title text-center">Valores</h2>
+            <!-- <img src="./public/img/IMG_4060.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body"
+                style="background-image: url('./public/img/IMG_4060.jpg'); background-size: cover; background-position: center; ">
+                <p class="card-text">Honestidad y transparencia: Mantenemos relaciones transparentes con nuestros
+                    clientes, proveedores y colaboradores.
+
+                    Diversidad e inclusión: Siempre nos esforzamos por valorar y celebrar la diversidad en todas sus
+                    formas</p>
+            </div>
+        </div>
+        <!--  </section>   -->
+    </div>
+
+
+
 
     <!-- Contenido principal -->
     <div class="container mt-4">
-        <!-- Descripción del proyecto -->
-        <section id="descripcion">
-            <div class="row">
-                <div class="col">
-                    <h2>Descripción del Proyecto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut odio quis mauris condimentum tristique. Sed efficitur metus vel velit lacinia commodo.</p>
-                </div>
-            </div>
-        </section>
-
         <!-- Perfiles del equipo -->
         <section id="equipo" class="mt-5">
             <h2>Nuestro Equipo</h2>
             <div class="row">
-                <!-- Miembro 1 -->
+
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="img/miembro1.jpg" class="card-img-top" alt="Miembro 1">
@@ -74,7 +141,7 @@
                     </div>
                 </div>
 
-                <!-- Miembro 2 -->
+
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="img/miembro2.jpg" class="card-img-top" alt="Miembro 2">
@@ -85,7 +152,7 @@
                     </div>
                 </div>
 
-                <!-- Miembro 3 -->
+
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <img src="img/miembro3.jpg" class="card-img-top" alt="Miembro 3">
@@ -97,24 +164,12 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div> 
 
     <!-- Footer -->
-    <footer class="custom-footer">
-        <div class="container">
-            <div class="copyright">
-                <p>&copy; 2024 Olga Franco Lencería - Todos los derechos reservados</p>
-            </div>
-            <div class="social-icons">
-                <a href="https://wa.me/message/R75D7YSZZ7HFC1"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/olga_franco_lenceria/"><i class="fab fa-instagram"></i></a>
-                <a href="olga_francogutierrez@hotmail.com"><i class="far fa-envelope"></i></a>
-            </div>
-         
-            <div class="policy">
-                <!-- Aquí añadimos el enlace hacia la política de privacidad y términos -->
-                <p><a href="politica.html">Política de privacidad y términos</a></p>
-            </div>
+    <footer class="bg-dark text-white mt-5 py-3">
+        <div class="container text-center">
+            &copy; 2024 Proyecto XYZ - Todos los derechos reservados
         </div>
     </footer>
 
@@ -127,4 +182,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
