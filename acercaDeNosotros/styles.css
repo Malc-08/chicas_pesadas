@@ -104,10 +104,10 @@ label:hover .flip-card{
   width: 100%;
 }
 
-.container > div {
+/* .container > div {
   display: inline-block;
   vertical-align: middle;
-}
+} */
 
 .social-icons {
   float: right;
@@ -118,6 +118,7 @@ label:hover .flip-card{
   text-decoration: none;
   margin-left: 10px;
 }**/
+
 .social-icons a {
   color: white;
   text-decoration: none;
