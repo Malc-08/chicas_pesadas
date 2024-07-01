@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Acerca de Nosotros - Olga Franco Lenceria</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Estilos personalizados -->
-    <style>
-        /* Estilo para cambiar el color del texto a negro */
-        .carousel-item h1 {
-            color: black;
-            /* Cambiar el color del texto a negro */
-        }
-
-        /* Estilo para cambiar el color de las flechas del carrusel a negro */
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            filter: invert(1);
-            /* Invertir el color de las flechas para que se vean negras */
-        }
-    </style>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +21,12 @@
     <!-- Estilos CSS personalizados -->
     <link rel="stylesheet" href="./styles.css">
 
-    <!-- Font Awesome para iconos -->
+     <!-- Font Awesome (librería para las redes sociales) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
         <div class="container-fluid">
@@ -53,8 +34,9 @@
                 <img id="logo" src="./public/img/logo-olga-franco-lenceria.png" alt="logo-olga-franco-lenceria"
                     class="mr-3">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" por
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -63,7 +45,7 @@
                         <a class="nav-link" href="#Inicio">Inicio</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#Conóceme">Conóceme</a>
+                        </b><a class="nav-link" href="#Conóceme">Conóceme</a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="#Productos">Productos</a>
@@ -81,15 +63,15 @@
 
     <!-- Descripción del proyecto -->
     <div id="sobreNosotros" class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 col-12 text-center mb-4 mb-md-0">
                 <br>
                 <br>
                 <br>
                 <img src="./public/img/imagen-sobre-nosotros.jpg" class="img-fluid rounded"
                     alt="imagen de tres chicas mostrando lenceria de Olga Franco">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-12 text-cente">
                 <br>
                 <br>
                 <br>
@@ -102,60 +84,86 @@
         </div>
     </div>
 
-
     <!-- Tarjetas Mision, Vision y Valores-->
-
-    <div class="card-group   flex-colum justify-content-center">
-        <div class="card1">
-            <h2 class="card-title text-center">Misión</h2>
-            <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
-            <div class="card-body"
-                style="background-image: url('./public/img/IMG_3597\ 2.jpg'); background-size: cover; background-position: center;">
-                <p class="card-text">Inspirar como líder a nivel mundial en lencería femenina, destacando por
-                    nuestra inclusividad, innovación en diseño y calidad, así como por nuestro compromiso con la
-                    diversidad corpora.</p>
+    <br>
+    <div class="card-group flex-colum justify-content-center">
+        <div class="row-card">
+            <div class="col-card">
+                <h3> Misión</h3>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-face" style="background-image: url('./public/img/mision-front.jpg'); background-size:
+                    cover; background-position: center;">
+                        </div>
+                        <div class="card-back" style="background-image: url('./public/img/mision-back.jpg'); background-size:
+                    cover; background-position: center; color: white; padding: 20px; opacity: 0.7;">
+                            <p class="card-description">Generar empoderamiento en las mujeres de todas las formas y
+                                tamaños, ofreciendo lencería femenina que recuerde y celebre solemnemente la belleza única de
+                                cada cuerpo. Dedicándonos a brindar prendas de alta calidad, para que no sólo se sientan
+                                cómodas, sino que promuevan la confianza y seguridad consigo mismas.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div>
-        <div class="card1">
-            <h2 class="card-title text-center">Visión</h2>
-            <!--  <img src="./public/img/IMG_3983 2.jpg" class="card-img-top" alt="..."> -->
-            <div class="card-body"
-                style="background-image: url('./public/img/IMG_3983 2.jpg'); background-size: cover; background-position: center;">
-                <p class="card-text">Inspirar como líder a nivel mundial en lencería femenina, destacando por
-                    nuestra inclusividad, innovación en diseño y calidad, así como por nuestro compromiso con la
-                    diversidad corpora.</p>
+            <div class="col-card">
+                <h3>Visión</h3>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-face" style="background-image: url('./public/img/vision-front.jpg'); background-size:
+                    cover; background-position: center;">
+                        </div>
+                        <div class="card-back" style="background-image: url('./public/img/vision-back.jpg'); background-size:
+                    cover; background-position: center; color: white; padding: 20px; opacity: 0.7;">
+                            <p class="card-description">Inspirar como líder a nivel mundial en lencería femenina,
+                                destacando por nuestra inclusividad, innovación en diseño y calidad, así como por nuestro compromiso
+                                con la diversidad corporal.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div>
-        <div class="card1">
-            <h2 class="card-title text-center">Valores</h2>
-            <!-- <img src="./public/img/IMG_4060.jpg" class="card-img-top" alt="..."> -->
-            <div class="card-body"
-                style="background-image: url('./public/img/IMG_4060.jpg'); background-size: cover; background-position: center; ">
-                <p class="card-text">Honestidad y transparencia: Mantenemos relaciones transparentes con nuestros
-                    clientes, proveedores y colaboradores.
-
-                    Diversidad e inclusión: Siempre nos esforzamos por valorar y celebrar la diversidad en todas sus
-                    formas</p>
+            <div class="col-card">
+                <h3>Valores</h3>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-face" style="background-image: url('./public/img/valores-front.jpg'); background-size:
+                    cover; background-position: center;">
+                        </div>
+                        <div class="card-back" style="background-image: url('./public/img/valores-back.jpg'); background-size:
+                    cover; background-position: center; color: white; padding: 20px; opacity: 0.7;">
+                            <p class="card-description">Honestidad y transparencia: con nuestros clientes, proveedores y
+                                colaboradores.
+                                <br> Diversidad e inclusión: nos esforzamos por valorar y celebrar la diversidad en
+                                todas sus formas.
+                                <br> Responsabilidad social y ambiental: actuamos con responsabilidad hacia la sociedad
+                                y el medio ambiente.
+                                <br> Atención al cliente: personalizada asegurándonos de que cada interacción con
+                                nuestra marca sea agradable e inspiradora.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--  </section>   -->
     </div>
 
     <!-- Carrusel desarrolladoras -->
     <section class="container text-center">
         <br>
+        <br>
+        <br>
         <div class="row justify-content-center">
             <div class="col-12 col-sm-7 col-md-6 col-lg-8">
-                <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/diana.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Diana-López">
-                                    <p>Diana López</p>
+                                    <br>
+                                    <br>
+                                    <h4>Diana López</h4>
+                                    <br>
                                     <h6>Desarrolladora Java con experiencia en el desarrollo tanto front-end como
                                         back-end con Scrum. Me especializo en Java,Java Script,Sql, Css y Html creando
                                         soluciones robustas y escalables. Me apasiona trabajar en equipos que manejan
@@ -164,7 +172,10 @@
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/amay.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Amayrani-Sosa">
-                                    <p>Amayrani Sosa</p>
+                                    <br>
+                                    <br>
+                                    <h4>Amayrani Sosa</h4>
+                                    <br>
                                     <h6>Desarrolladora front-end con amplia experiencia en la creación de interfaces de
                                         usuario intuitivas y atractivas. Apasionada por el desarrollo web, especializada
                                         en transformar diseños en experiencias interactivas y responsivas.</h6>
@@ -176,7 +187,10 @@
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/lucero.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Lucero-Hernández">
-                                    <p>Lucero Hernández</p>
+                                    <br>
+                                    <br>
+                                    <h4>Lucero Hernández</h4>
+                                    <br>
                                     <h6>Desarrolladora Java-Full Stack Dominio de HTML, CSS y JavaScript para el
                                         desarrollo frontend, con habilidades en frameworks de backend. Conocimientos de
                                         diseño y experiencia de usuario para crear interfaces atractivas y funcionales.
@@ -185,7 +199,10 @@
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/rubi.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Rubí-Medina">
-                                    <p>Rubí Medina</p>
+                                    <br>
+                                    <br>
+                                    <h4>Rubí Medina</h4>
+                                    <br>
                                     <h6>Soy desarrolladora Java Full Stack con experiencia como Product Owner. Me
                                         encanta el desarrollo y la implementación de metodología ágil a la hora de
                                         ejecutar los proyectos y disfruto el trabajo en equipo, viendo el desarrollo de
@@ -198,15 +215,21 @@
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/mari.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Maricela-Bautista">
-                                    <p>Maricela Bautista</p>
+                                    <br>
+                                    <br>
+                                    <h4>Maricela Bautista</h4>
+                                    <br>
                                     <h6>Desarrolladora Java Full-Stack, experiencia en HTML, CSS, JavaScript con
                                         habilidades en las etapas del ciclo de vida del desarrollo de software, desde la
                                         concepción hasta el despliegue y mantenimiento de aplicaciones.</h6>
                                 </div>
                                 <div class="col-6">
-                                    <img class="rounded-image" src="./public/img/josse.jpeg" class="d-block mx-auto"
+                                    <img class="rounded-image" src="./public/img/josse.jpg" class="d-block mx-auto"
                                         alt="Foto-de-Josefina-Pineda">
-                                    <p>Josefina Pineda</p>
+                                    <br>
+                                    <br>
+                                    <h4>Josefina Pineda</h4>
+                                    <br>
                                     <h6>Desarrolladora Java Full Stack con experiencia en aplicaciones web y móviles,
                                         especializada en crear soluciones desde el diseño hasta la implementación
                                         utilizando Java, JavaScript, HTML, CSS y metodologías ágiles como Scrum.</h6>
@@ -218,15 +241,22 @@
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/mariana.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Mariana-López">
-                                    <p>Mariana López</p>
+                                    <br>
+                                    <br>
+                                    <h4>Mariana López</h4>
+                                    <br>
                                     <h6>Front end Developer. Creativa y apasionada desarrolladora, con experiencia en el
-                                        área de producción audiovisual, responsable y capaz de trabajar en equipo, con la
+                                        área de producción audiovisual, responsable y capaz de trabajar en equipo, con
+                                        la
                                         habilidad para combinar lo técnico con lo creativo.</h6>
                                 </div>
                                 <div class="col-6">
                                     <img class="rounded-image" src="./public/img/estefania.jpeg" class="d-block mx-auto"
                                         alt="Foto-de-Estefania-Ortiz">
-                                    <p>Estefania Ortiz</p>
+                                    <br>
+                                    <br>
+                                    <h4>Estefania Ortiz</h4>
+                                    <br>
                                     <h6>Soy desarrolladora especializada en JavaScript y Java, apasionada por crear
                                         soluciones eficientes. Con experiencia en el desarrollo de aplicaciones web y
                                         backend, disfruto escribir código, siempre buscando innovar y mejorar la
@@ -236,13 +266,13 @@
                         </div>
                     </div>
                     <!-- Controles del Carrusel -->
-                    <button class="carousel-control-prev" type="button" data-target="#carouselExample"
-                        data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden"></span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-target="#carouselExample"
-                        data-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden"></span>
                     </button>
@@ -251,19 +281,17 @@
         </div>
     </section>
 
-
     <!-- Footer -->
     <footer class="custom-footer">
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             <div class="row">
-                <div class="col-md-9 d-flex align-items-center">
+                <div class="col"> 
                     <div class="copyright">
                         <h5 class="text-left">&copy; 2024 Olga Franco Lencería - Todos los derechos reservados</h5>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="social-icons d-flex align-items-right">
-                        <!-- Añade la clase text-md-end para alinear a la derecha en pantallas medianas y más grandes -->
+                <div class="col"> 
+                    <div class="social-icons">
                         <a href="https://wa.me/message/R75D7YSZZ7HFC1"><i class="fab fa-whatsapp"></i></a>
                         <a href="https://www.instagram.com/olga_franco_lenceria/"><i class="fab fa-instagram"></i></a>
                         <a href="mailto:olga_francogutierrez@hotmail.com"><i class="far fa-envelope"></i></a>
@@ -281,13 +309,11 @@
     </footer>
 
     <!-- Bootstrap y jQuery JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Script personalizado para animación -->
-    <script src="script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+     <!-- Script personalizado para animación -->
+        <script src="script.js"></script>
 </body>
 
 </html>
