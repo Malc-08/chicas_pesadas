@@ -1,0 +1,240 @@
+/* Estilos básicos para cuerpo y html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Estilos del navbar personalizado */
+.custom-navbar {
+    background-color: #F5EBD2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #4b4949 !important;
+    font-size: 18px !important; 
+    font-weight: normal !important;
+    padding: 10px 15px !important;
+    font-family: "Playfair Display", serif !important; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: black !important;
+    text-decoration: none !important;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column; 
+    }
+    .navbar-nav .nav-link {
+        text-align: center; 
+        padding: 10px 0; 
+    }
+  }
+  
+
+/* Estilo del cuerpo con imagen de fondo */
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    padding: 75px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+
+h3 {
+    margin-top: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-sinaloa {
+    padding: 20px;
+    background-color:rgb(245, 235, 210, 0.5);
+    border-radius: 10px;
+}
+
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #A532A1;
+    border-color: #A532A1;
+}
+
+.btn-primary:hover {
+    background-color: #922b8e;
+    border-color: #922b8e;
+}
+
+.rounded-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./public/img/IMG_fondoContac.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajusta el valor del desenfoque */
+    z-index: -1;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 10px;
+}
+
+#map iframe{
+    border-radius: 10px;
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 24px; /* Aumenta el tamaño del icono */
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* Estilos del footer personalizado */
+.custom-footer {
+    background-color: rgb(53, 2, 53);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
+  }
+  
+  .policy {
+    background-color: rgb(80, 2, 80);
+    color: white;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .policy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .policy a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #df24f0;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    height: 100%;
+  }
+  
+
+/* Estilos personalizados para los inputs del formulario */
+.form-control-with-icon {
+    padding-left: 2.375rem;
+}
+
+.form-control-textarea {
+    border-radius: 1rem;
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.rounded-box {
+    padding: 1rem;
+    
+}
+/* Estilo para centrar verticalmente en columnas */
+.col-centered {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo específico para la columna de la izquierda */
+.col-left {
+    justify-content: flex-start; /* Alineación a la izquierda */
+}
+
+/* Estilo específico para la columna de la derecha */
+.col-right {
+    justify-content: flex-end; /* Alineación a la derecha */
+}
+
+/* Margen vertical en columnas (puedes ajustar según sea necesario) */
+.my-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}

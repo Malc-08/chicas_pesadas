@@ -45,7 +45,7 @@ p {
   font-size: 18px !important; 
   font-weight: normal !important;
   padding: 10px 15px !important;
-  font-family: "Playfair Display", serif !important; /* Agregar */
+  font-family: "Playfair Display", serif !important; 
 }
 
 .navbar-nav .nav-link:hover {

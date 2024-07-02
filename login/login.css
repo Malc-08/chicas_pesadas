@@ -1,0 +1,125 @@
+/* Estilos generales */
+html, body {
+    background-color: #FCDCDB;
+    padding-bottom: 100px; 
+  }
+  
+  /* Estilos para encabezados y párrafos */
+  h6 {
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  
+  h5 {
+    font-size: 10px;
+  }
+  
+  h4, h3, h2 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: justify; 
+  }
+  
+  p {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  /* Estilos del navbar personalizado */
+  .custom-navbar {
+    background-color: #F5EBD2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #4b4949 !important;
+    font-size: 18px !important; 
+    font-weight: normal !important;
+    padding: 10px 15px !important;
+    font-family: "Playfair Display", serif !important; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: black !important;
+    text-decoration: none !important;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column; 
+    }
+    .navbar-nav .nav-link {
+        text-align: center; 
+        padding: 10px 0; 
+    }
+  }
+  
+ 
+  /* Estilos del footer personalizado */
+  .custom-footer {
+    background-color: rgb(53, 2, 53);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
+  }
+  
+  .policy {
+    background-color: rgb(80, 2, 80);
+    color: white;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .policy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .policy a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #df24f0;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    height: 100%;
+  }
+  
